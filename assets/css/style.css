@@ -1,0 +1,234 @@
+h2, h3, h4, p {
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+section, footer {
+  padding: 100px 25px;
+}
+
+a {
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+#nav-links {
+  display: none;
+}
+
+.btn {
+  font-size: 18px;
+  border: 3px solid white;
+  color: white;
+  padding: 15px 50px;
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.btn2 {
+  font-size: 18px;
+  background-color: #FF5803;
+  color: white;
+  padding: 15px;
+  display: block;
+  margin: 0 auto;
+  width: 175px;
+}
+
+h2 {
+  font-size: 55px;
+  padding: 25px 0;
+}
+
+p {
+  font-size: 25px;
+  padding: 25px;
+  font-weight: 300;
+}
+
+nav {
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav div {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 100px 0 600px 0;
+  position: fixed;
+  top: 85px;
+  width: 100%;
+}
+
+nav div a {
+  color: #ff0fbb;
+  font-size: 45px;
+  font-weight: 800;
+  padding: 10px;
+}
+
+nav #logo {
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+nav #mobile-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+  width: 90px;
+}
+
+#hero {
+  padding: 175px 0;
+  color: white;
+  background-image: url("../imgs/colorful-bg.jpg");
+}
+
+#hero p {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+#numbers h2 {
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+
+#numbers p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+#numbers img {
+  width: 75px;
+  display: block;
+  margin: 100px auto 0 auto;
+}
+
+#numbers h3 {
+  text-align: center;
+  padding: 25px 0 25px 0;
+  font-size: 35px;
+}
+
+#our-work {
+  background-color: #0F1116;
+  color: white;
+  padding: 100px 0 0 0;
+}
+
+#our-work .btn {
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 1000px) {
+  #our-work #container {
+    padding: 0 10%;
+    text-align: center;
+    color: white;
+    height: 800px;
+  }
+  #our-work #container div {
+    float: left;
+    width: 50%;
+  }
+}
+
+#our-work h3 {
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+#our-work hr {
+  color: white;
+  padding: 25px;
+}
+
+#our-work #p1 {
+  background-image: url("../imgs/project1.jpg");
+  height: 375px;
+  width: 100%;
+}
+
+#our-work #p2 {
+  background-image: url("../imgs/project2.jpg");
+  height: 375px;
+  width: 100%;
+}
+
+#our-work #p3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 38, 113, 0.8)), to(rgba(195, 55, 100, 0.8))), url("https://bit.ly/2rlzaXi");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");
+  /* The least supported option. */
+  background-image: url("../imgs/project3.jpg");
+  height: 375px;
+  width: 100%;
+}
+
+#our-work #p4 {
+  background-image: url("../imgs/project4.jpg");
+  height: 375px;
+  width: 100%;
+}
+
+#moving-forward p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+#blog {
+  background-color: #EFEFEF;
+}
+
+#blog h2 {
+  padding: 25px;
+}
+
+#blog img {
+  height: 350px;
+  width: 100%;
+  margin: 75px 0 25px 0;
+}
+
+#blog a {
+  float: right;
+  margin: 0;
+  width: 100px;
+}
+
+#contact {
+  background-color: #0F1116;
+  color: white;
+}
+
+#contact p {
+  padding: 75px 0;
+}
+
+footer {
+  width: 100%;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer p:first-of-type {
+  font-weight: 800;
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.css.map */
